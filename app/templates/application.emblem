@@ -1,4 +1,16 @@
-h2 id="title"
-  .fa.fa-book
-  | Welcome to Ember CLI
-outlet
+.main-wrapper.container-fluid
+  header.row
+    .col-xs-12
+      a.menu-btn href="#"
+        .fa.fa-navicon
+      link-to 'index' class="logo"
+        .icon.fa.fa-book
+        | &nbsp;Project Uno
+      link-to 'index' class="main-btn"
+        i.fa.fa-group
+        | New Class
+  .row.mt30.content-area
+    .col-sm-12
+      outlet
+
+

@@ -1,0 +1,68 @@
+.main-wrapper {
+    padding: 15px 30px;
+}
+
+header {
+    text-align: center;
+    line-height: 70px;
+
+    a {
+        display: inline-block;
+        font-size: 1.5em;
+        color: #555;
+
+        &:hover {
+            text-decoration: none;
+            color: #555;
+        }
+
+        &:active {
+            position: relative;
+            top: 2px;
+        }
+
+        &.menu-btn {
+            font-size: 2em;
+            float: left;
+        }
+
+        &.main-btn {
+            float: right;
+        }
+
+        .fa {
+            margin-right: 10px;
+        }
+    }
+
+    a.logo {
+        font-family: "BigMouth";
+        font-size: 3em;
+        text-decoration: none;
+        color: #333;
+
+        .icon {
+            font-size: 0.8em;
+        }
+    }
+}
+
+.content-area {
+
+}
+
+.left-nav {
+    li {
+        a {
+            color: #666;
+            font-size: 1.5em;
+
+        }
+    }
+}
+
+
+#new_class_form {
+    margin: 0 auto;
+    width: 40%;
+}
