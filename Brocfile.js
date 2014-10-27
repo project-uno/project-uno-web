@@ -12,7 +12,7 @@ app.import('bower_components/fontawesome/fonts/fontawesome-webfont.ttf', {
 // JS
 app.import('bower_components/bootstrap/dist/js/bootstrap.js');
 app.import('bower_components/velocity/velocity.min.js');
-app.import('bower_components/velocity/velocity-ui.min.js');
+app.import('bower_components/velocity/velocity.ui.min.js');
 
 // CSS
 app.import('bower_components/bootstrap/dist/css/bootstrap.css');
