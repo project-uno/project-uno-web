@@ -9,6 +9,10 @@ app.import('bower_components/fontawesome/fonts/fontawesome-webfont.ttf', {
   destDir: "fonts"
 });
 
+app.import('bower_components/fontawesome/fonts/fontawesome-webfont.woff', {
+  destDir: "fonts"
+});
+
 // JS
 app.import('bower_components/bootstrap/dist/js/bootstrap.js');
 app.import('bower_components/velocity/velocity.min.js');
@@ -16,6 +20,7 @@ app.import('bower_components/velocity/velocity.ui.min.js');
 
 // CSS
 app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+app.import('bower_components/bootstrap/dist/css/bootstrap.css.map');
 app.import('bower_components/fontawesome/css/font-awesome.css');
 
 
