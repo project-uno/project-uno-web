@@ -1,0 +1,8 @@
+h1 Subjects
+link-to 'subjects.new' | New
+
+ul
+  each controller
+    li= name
+
+outlet

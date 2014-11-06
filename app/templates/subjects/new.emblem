@@ -1,0 +1,11 @@
+.row
+  .col-xs-12
+    #new-subject
+      form submit=createSubject
+        fieldset
+          .form-group
+            label.sr-only Name
+            view Ember.TextField class="form-control" placeholder="What's the name of this subject?" value=fields.name
+        fieldset
+          input.btn.btn-default type="submit" value="Create"
+          button.btn.btn-default click=cancel Cancel

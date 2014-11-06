@@ -6,9 +6,9 @@
       link-to 'index' class="logo"
         .icon.fa.fa-book
         | &nbsp;Project Uno
-      link-to 'class.new' class="main-btn"
-        i.fa.fa-group
-        | New Class
+      link-to 'subjects.new' class="main-btn"
+        i.fa.fa-folder
+        | New Subject
   .row.mt30.content-area
     .col-sm-12
       outlet

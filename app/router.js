@@ -6,10 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.resource("class", function() {
+  this.resource("subjects", function() {
     this.route('new');
   });
-
 });
 
 export default Router;
