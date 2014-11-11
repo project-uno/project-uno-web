@@ -1,3 +1,26 @@
-h1 Teachers
-link-to 'teachers.new' | New
+.main-layout#teachers
+  h1 Teachers
+  link-to 'teachers.new' | New
+
+  table.table.table-bordered.table-hover
+    th Actions
+    th ID
+    th First Name
+    th Last Name
+    th Email Address
+
+    each controller
+      tr
+        td
+          link-to 'teachers'
+            .fa.fa-edit
+            span &nbsp; Edit
+          | &nbsp; | &nbsp;
+          link-to 'teachers'
+            .fa.fa-trash
+            span &nbsp; Delete
+        td= id
+        td= firstName
+        td= lastName
+        td= email
 

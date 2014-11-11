@@ -11,10 +11,10 @@
         i.fa.fa-group
         | New Class
   .row.mt30.content-area
-    .col-sm-3
+    .col-sm-2
       link-to 'teachers'
         | Teachers
-    .col-sm-9
+    .col-sm-10
       outlet
 
 

@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
   actions: {
-    registerTeacher: function() {
+    createTeacher: function() {
       var self = this,
           teacher = this.store.createRecord('teacher', this.get('fields'));
 
@@ -15,6 +15,10 @@ export default Ember.Controller.extend({
             alert(errorObj.responseJSON.error)
           }
         });
+    },
+
+    cancel: function() {
+      this.transitionTo('teachers');
     }
   }
 });
