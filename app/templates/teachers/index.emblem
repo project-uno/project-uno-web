@@ -1,6 +1,9 @@
-.main-layout#teachers
-  h1 Teachers
-  link-to 'teachers.new' | New
+#teachers
+  .page-title
+    h1 Teachers
+    link-to 'teachers.new' class='main-btn'
+      .icon.fa.fa-plus-circle
+      span Add
 
   table.table.table-bordered.table-hover
     th Actions

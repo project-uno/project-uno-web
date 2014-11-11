@@ -118,6 +118,36 @@ $left-nav-bg: #F0F0F0;
   padding: 20px;
 }
 
+.content-area {
+  .page-title {
+    margin-bottom: 15px;
+    h1 {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    a.main-btn {
+      display: inline-block;
+      background-color: #2574A9;
+      border-radius: 25px;
+      padding: 5px 20px 5px 10px;
+      color: #FFF;
+      margin-bottom: 10px;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      .icon {
+        font-size: 1.25em;
+        margin-right: 7px;
+      }
+    }
+  }
+
+
+
+}
 
 #new_class_form {
   margin: 0 auto;

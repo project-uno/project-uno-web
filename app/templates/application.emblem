@@ -28,10 +28,7 @@
           link-to 'index' class="logo"
             .icon.fa.fa-book
             | &nbsp;Project Uno
-          link-to 'index' class="main-btn"
-            i.fa.fa-group
-            | New Class
-      .row.mt30.content-area
+      .row.content-area
         .col-xs-12
           outlet
 
