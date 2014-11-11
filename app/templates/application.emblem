@@ -1,20 +1,38 @@
-.main-wrapper.container-fluid
-  header.row
-    .col-xs-12
-      a.menu-btn href="#"
-        .fa.fa-navicon
-        small.text-muted Menu
-      link-to 'index' class="logo"
-        .icon.fa.fa-book
-        | &nbsp;Project Uno
-      link-to 'index' class="main-btn"
-        i.fa.fa-group
-        | New Class
-  .row.mt30.content-area
-    .col-sm-2
-      link-to 'teachers'
-        | Teachers
-    .col-sm-10
-      outlet
+.main-wrapper
+  .left-nav
+    .container-fluid.p0
+      .row.header
+        .col-xs-12
+          link-to 'index' class='menu-btn'
+            .fa.fa-navicon
+            small.text-muted Menu
+
+      .row
+        .col-xs-12
+          .menu-group
+            .title Users
+            ul
+              li
+                link-to 'teachers'
+                  .icon.fa.fa-user
+                  span Teachers
+              li
+                a href='#'
+                  .icon.fa.fa-graduation-cap
+                  span Students
+
+  .right-area
+    .container-fluid
+      .row.header
+        .col-xs-12
+          link-to 'index' class="logo"
+            .icon.fa.fa-book
+            | &nbsp;Project Uno
+          link-to 'index' class="main-btn"
+            i.fa.fa-group
+            | New Class
+      .row.mt30.content-area
+        .col-xs-12
+          outlet
 
 

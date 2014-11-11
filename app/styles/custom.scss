@@ -19,6 +19,14 @@ textarea {
     resize: none;
 }
 
+a {
+    color: $link-color;
+
+    &:hover {
+        color: $link-color;
+    }
+}
+
 .btn-default {
     font-size: 1.85em;
     font-family: 'Raleway';
