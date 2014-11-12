@@ -9,45 +9,18 @@ $left-nav-bg: #F0F0F0;
 }
 
 .header {
-  line-height: 70px;
-
-  a {
-    display: inline-block;
-    font-size: 1.5em;
-    color: #555;
-
-    &:hover {
-      text-decoration: none;
-      color: #555;
-    }
-
-    &:active {
-      position: relative;
-      top: 2px;
-    }
-
-    &.menu-btn {
-      font-size: 2em;
-      float: left;
-    }
-
-    &.main-btn {
-      float: right;
-    }
-
-    .fa {
-      margin-right: 10px;
-    }
-  }
+  padding: 10px;
 
   a.logo {
     font-family: "BigMouth";
-    font-size: 3em;
+    font-size: 1.4em;
     text-decoration: none;
     color: #333;
+    text-transform: uppercase;
 
     .icon {
-      font-size: 0.8em;
+      font-size: 0.75em;
+      margin-right: 10px;
     }
   }
 }
@@ -102,9 +75,9 @@ $left-nav-bg: #F0F0F0;
         }
 
         .icon {
-          margin-right: 10px;
+          margin-right: 8px;
           width: 10%;
-          font-size: 1.2em;
+          font-size: 1.1em;
         }
 
         span {

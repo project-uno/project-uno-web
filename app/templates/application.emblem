@@ -3,9 +3,9 @@
     .container-fluid.p0
       .row.header
         .col-xs-12
-          link-to 'index' class='menu-btn'
-            .fa.fa-navicon
-            small.text-muted Menu
+          link-to 'index' class='logo'
+            .icon.fa.fa-book
+            small.text-muted Project Uno
 
       .row
         .col-xs-12

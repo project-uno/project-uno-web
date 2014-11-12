@@ -13,8 +13,6 @@ Router.map(function() {
   this.resource('errors', function() {
     this.route('500');
   });
-
-
 });
 
 export default Router;
