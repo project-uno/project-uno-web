@@ -12,7 +12,7 @@ export default Ember.Controller.extend({
         })
         .catch(function(errorObj) {
           if(errorObj.status === 400) {
-            alert(errorObj.responseJSON.error)
+            alert(errorObj.responseJSON.error);
           }
         });
     },

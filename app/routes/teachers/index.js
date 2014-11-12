@@ -1,17 +1,11 @@
-import Ember from 'ember';
+import UnoRoute from '../../routes/uno_route';
 
-export default Ember.Route.extend({
+export default UnoRoute.extend({
   model: function() {
     return this.store.find('teacher');
   },
 
   setupController: function(controller, model) {
     controller.set('model', model);
-  },
-
-  actions: {
-    error: function(error, transition) {
-      this.transitionTo('errors.500');
-    }
   }
 });
