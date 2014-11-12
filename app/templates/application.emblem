@@ -23,11 +23,6 @@
 
   .right-area
     .container-fluid
-      .row.header
-        .col-xs-12
-          link-to 'index' class="logo"
-            .icon.fa.fa-book
-            | &nbsp;Project Uno
       .row.content-area
         .col-xs-12
           outlet

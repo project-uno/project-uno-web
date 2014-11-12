@@ -9,6 +9,12 @@ Router.map(function() {
   this.resource('teachers', function() {
     this.route('new');
   });
+
+  this.resource('errors', function() {
+    this.route('500');
+  });
+
+
 });
 
 export default Router;

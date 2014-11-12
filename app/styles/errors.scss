@@ -1,0 +1,27 @@
+#error-500 {
+  > .icon {
+    font-size: 3em;
+    margin-right: 20px;
+    color: #666;
+  }
+
+  h1 {
+    display: inline-block;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  ul {
+    padding-left: 25px;
+
+    li {
+      list-style-type: none;
+      > .icon {
+        color: #333;
+        margin-right: 15px;
+      }
+    }
+  }
+}

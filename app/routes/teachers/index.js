@@ -7,5 +7,11 @@ export default Ember.Route.extend({
 
   setupController: function(controller, model) {
     controller.set('model', model);
+  },
+
+  actions: {
+    error: function(error, transition) {
+      this.transitionTo('errors.500');
+    }
   }
 });
