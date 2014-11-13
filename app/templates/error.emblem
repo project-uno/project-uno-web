@@ -1,0 +1,8 @@
+#error-500
+  .icon.fa.fa-bug
+  h1 T.T Something has gone wrong
+  hr
+  ul
+    li
+      .icon.fa.fa-bullhorn
+      = errorMessage
